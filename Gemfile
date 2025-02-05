@@ -34,3 +34,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "minimal-mistakes-jekyll"
 gem 'jekyll-include-cache'
+gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem "webrick"
